@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "coverImage":"https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "blogTitle":"Common Beginner Mistakes with React",
+      "authorName": "Sakib Al Hasan",
+      "authorImage":"https://rextheme.com/wp-content/themes/RexTheme/images/testimonial-author-placeholder-img.png",
+      "readTime": 8,
+      "publishDate": "Jan 31 (10 Days ago)"
+    },
+    {
+        "id": "2",
+        "coverImage": "https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "blogTitle":"10 Tips for Writing Clean Code",
+        "authorName": "Najmul Santo",
+        "authorImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa69_HGc_i3MXKCPZzCfAjBZC4bXJsn0rS0Ufe6H-ctZz5FbIVaPkd1jCPTpKwPruIT3Q&usqp=CAU",
+        "readTime": 6,
+        "publishDate": "Mar 29 (1 day ago)"
+    },
+    {
+        "id": "3",
+        "coverImage":"https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1tZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "blogTitle":"Getting Started with Game Development",
+        "authorName": "Liton Das",
+        "authorImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gXPWxo_fQPzvP2TNGFtHzqQiChF6VklO68Fydsig_A69sVnizAMg_bxzCLvFEDMpwI8&usqp=CAU",
+        "readTime": 10,
+        "publishDate": "Mar 28 (2 days ago)"
+    },
+    {
+        "id": "4",
+        "coverImage":"https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2dyYW1tZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "blogTitle": "5 Tips for Effective Blogging",
+        "authorName": "Jamal Bhuya",
+        "authorImage":"https://cdn-icons-png.flaticon.com/128/4128/4128176.png",
+        "readTime": 6,
+        "publishDate": "Feb 25 (5 days ago)"
+    }
+  ]
