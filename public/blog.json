@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "coverImage":"https://images.unsplash.com/photo-1596003906949-67221c37965c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "coverImage":"https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "blogTitle":"Common Beginner Mistakes with React",
       "authorName": "Sakib Al Hasan",
       "authorImage":"https://rextheme.com/wp-content/themes/RexTheme/images/testimonial-author-placeholder-img.png",
@@ -10,7 +10,7 @@
     },
     {
         "id": "2",
-        "coverImage": "https://images.unsplash.com/photo-1536148935331-408321065b18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "coverImage":"https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "blogTitle":"10 Tips for Writing Clean Code",
         "authorName": "Najmul Santo",
         "authorImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa69_HGc_i3MXKCPZzCfAjBZC4bXJsn0rS0Ufe6H-ctZz5FbIVaPkd1jCPTpKwPruIT3Q&usqp=CAU",
@@ -28,7 +28,7 @@
     },
     {
         "id": "4",
-        "coverImage":"https://images.unsplash.com/photo-1631624215749-b10b3dd7bca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHByb2dyYW1tZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "coverImage":"https://plus.unsplash.com/premium_photo-1678565999332-1cde462f7b24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "blogTitle": "5 Tips for Effective Blogging",
         "authorName": "Jamal Bhuya",
         "authorImage":"https://cdn-icons-png.flaticon.com/128/4128/4128176.png",
