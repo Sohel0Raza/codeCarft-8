@@ -1,33 +1,52 @@
 import React, { useEffect, useState } from 'react';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import Blog from '../Card/Card';
-import SpentTime from '../SpentTime/SpentTime';
+import Bookmarks from '../Bookmarks/Bookmarks';
+
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([])
-    const [blogTime, setBlogTime] = useState([])
-    useEffect(()=>{
+    const [bookmarkedBlogs, setBookmarksBlogs] = useState([])
+    const [readTime, setReadTime] = useState([])
+    useEffect(() => {
         fetch('blog.json')
-        .then(res => res.json())
-        .then(data => setBlogs((data)))
-    },[])
-    const handelAddTime = (blogs) =>{
-      const newCard = [...blogTime, blogs]
-      setBlogTime(newCard)
+            .then(res => res.json())
+            .then(data => setBlogs(data))
+    }, [])
+    const handelAddBookmark = (blog) => {
+        const isExist = bookmarkedBlogs.some(bookmarkedBlog => bookmarkedBlog.id == blog.id)
+        if (isExist) {
+            toast("You Have Already Bookmarked This Blog")
+        }
+        else {
+            const updatedBookmarkBlogs = [...bookmarkedBlogs, blog]
+            setBookmarksBlogs(updatedBookmarkBlogs)
+        }
+
+    }
+    const handelAddReadTime = (blogs) => {
+        const updateReadTime = [...readTime, blogs]
+        setReadTime(updateReadTime)
     }
     return (
         <div className='grid grid-cols-3 gap-7 mx-20 my-10'>
             <div className='blogs-container col-span-2'>
                 {
                     blogs.map(blog => <Blog
-                    blog={blog}
-                    key={blog.id}
-                    handelAddTime={handelAddTime}
+                        blog={blog}
+                        key={blog.id}
+                        handelAddBookmark={handelAddBookmark}
+                        handelAddReadTime={handelAddReadTime}
                     ></Blog>)
                 }
             </div>
             <div className='bookmarked-container relative'>
-               <SpentTime blogTime={blogTime}></SpentTime>
+                <Bookmarks bookmarkedBlogs={bookmarkedBlogs} handelAddReadTime={readTime}></Bookmarks>
             </div>
+            <ToastContainer/>
         </div>
     );
 };
