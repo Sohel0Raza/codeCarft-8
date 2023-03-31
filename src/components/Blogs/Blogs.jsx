@@ -32,8 +32,8 @@ const Blogs = () => {
         setReadTime(updateReadTime)
     }
     return (
-        <div className='grid grid-cols-3 gap-7 mx-20 my-10'>
-            <div className='blogs-container col-span-2'>
+        <div className='md:grid md:grid-cols-3 md:gap-7 mx-5 md:mx-20 my-10'>
+            <div className='blogs-container md:col-span-2'>
                 {
                     blogs.map(blog => <Blog
                         blog={blog}

@@ -9,7 +9,7 @@ const Blog = (props) => {
     const handelAddReadTime = props.handelAddReadTime;
     return (
         <div className="card card-compact w-full bg-base-100 shadow-2xl mb-7">
-            <img className='w-full h-96	 p-5 rounded-sm shadow-xl' src={coverImage} alt="Shoes" />
+            <img className='w-full md:h-96	 p-5 rounded-sm shadow-xl' src={coverImage} alt="Shoes" />
             <div className="card-body">
                 <div className='flex justify-between items-center'>
                     <div className='flex items-center'>
@@ -38,4 +38,4 @@ const Blog = (props) => {
     );
 };
 
-export default Blog;
+export default  Blog;

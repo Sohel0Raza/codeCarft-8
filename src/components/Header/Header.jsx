@@ -5,7 +5,7 @@ const Header = () => {
         <div>
             <div className="navbar bg-secondary">
                 <div className="flex-1">
-                    <a className="normal-case text-2xl font-bold mx-16 text-white">CODE CRAFT</a>
+                    <a className="normal-case text-xl md:text-2xl font-bold mx-5 md:mx-16 text-white">CODE CRAFT</a>
                 </div>
                 <div className="flex-none gap-2 mr-10">
                     <div className="dropdown dropdown-end">
