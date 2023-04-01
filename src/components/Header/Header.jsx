@@ -11,7 +11,7 @@ const Header = () => {
                     <div className="dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-14 rounded-full text-center">
-                                <img src="/public/male-profile-image-circle-color-260nw-1520981711.webp" />
+                                <img src="/public/flat-business-man-user-profile-avatar-icon-vector-4333097.jpg" />
                             </div>
                         </label>
                         <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
