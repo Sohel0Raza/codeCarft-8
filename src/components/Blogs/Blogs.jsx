@@ -19,7 +19,7 @@ const Blogs = () => {
     const handelAddBookmark = (blog) => {
         const isExist = bookmarkedBlogs.some(bookmarkedBlog => bookmarkedBlog.id == blog.id)
         if (isExist) {
-            toast("You Have Already Bookmarked This Blog")
+            toast("Yuuups!! You Have Already Bookmarked This Blog")
         }
         else {
             const updatedBookmarkBlogs = [...bookmarkedBlogs, blog]
@@ -32,7 +32,7 @@ const Blogs = () => {
         setReadTime(updateReadTime)
     }
     return (
-        <div className='md:grid md:grid-cols-3 md:gap-7 mx-5 md:mx-20 my-10'>
+        <div className='md:grid md:grid-cols-3 md:gap-7 md:w-10/12 mx-auto my-10'>
             <div className='blogs-container md:col-span-2'>
                 {
                     blogs.map(blog => <Blog
