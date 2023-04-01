@@ -46,7 +46,7 @@ const Blogs = () => {
             <div className='bookmarked-container relative'>
                 <Bookmarks bookmarkedBlogs={bookmarkedBlogs} handelAddReadTime={readTime}></Bookmarks>
             </div>
-            <ToastContainer/>
+            <ToastContainer />
         </div>
     );
 };

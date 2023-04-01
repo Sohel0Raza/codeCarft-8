@@ -6,9 +6,9 @@ function App() {
 
   return (
     <div className="App">
-            <Header></Header>
-            <Blogs></Blogs>
-            <Questions></Questions>
+      <Header></Header>
+      <Blogs></Blogs>
+      <Questions></Questions>
     </div>
   )
 }

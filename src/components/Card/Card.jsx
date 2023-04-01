@@ -21,21 +21,21 @@ const Blog = (props) => {
                     </div>
                     <div>
                         <p>{readTime} min read <span>
-                                <button onClick={()=> handelAddBookmark(props.blog)} className=' text-rose-400 border-none m-3 p-0 '>
-                                    <FontAwesomeIcon icon={faBookmark} />
-                                </button>
-                            </span>
+                            <button onClick={() => handelAddBookmark(props.blog)} className=' text-rose-400 border-none m-3 p-0 '>
+                                <FontAwesomeIcon icon={faBookmark} />
+                            </button>
+                        </span>
                         </p>
                     </div>
                 </div>
                 <h2 className='text-2xl font-bold py-1'>{blogTitle}</h2>
                 <p>#beginners #programming</p>
                 <div className="card-actions">
-                    <button onClick={()=> handelAddReadTime(props.blog)} className="btn btn-link text-rose-700 px-0">Mark as read</button>
+                    <button onClick={() => handelAddReadTime(props.blog)} className="btn btn-link text-rose-700 px-0">Mark as read</button>
                 </div>
             </div>
         </div>
     );
 };
 
-export default  Blog;
+export default Blog;

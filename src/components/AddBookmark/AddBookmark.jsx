@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AddBookmark = ({bookmarkedBlog}) => {
+const AddBookmark = ({ bookmarkedBlog }) => {
     // console.log(bookmarkedBlog)
     return (
         <div className='p-3 border-2 mb-5 rounded-lg bg-zinc-100 shadow-2xl'>

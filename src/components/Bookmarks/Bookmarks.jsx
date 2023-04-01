@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import AddBookmark from '../AddBookmark/AddBookmark';
 
-const Bookmarks = ({bookmarkedBlogs,handelAddReadTime}) => {
+const Bookmarks = ({ bookmarkedBlogs, handelAddReadTime }) => {
     // console.log(bookmarkedBlogs)
 
-    let totalTime= 0;
-    for(const time of handelAddReadTime){
+    let totalTime = 0;
+    for (const time of handelAddReadTime) {
         totalTime = totalTime + time.readTime
     }
     return (
@@ -15,12 +15,12 @@ const Bookmarks = ({bookmarkedBlogs,handelAddReadTime}) => {
             </div>
             <div className='bg-slate-200 p-5 rounded-lg'>
                 <h3 className='mb-5 text-xl font-semibold'>Bookmarked Blogs: {bookmarkedBlogs.length}</h3>
-               {
-                bookmarkedBlogs.map(bookmarkedBlog =><AddBookmark 
-                    bookmarkedBlog={bookmarkedBlog}
-                    key={bookmarkedBlog.id}
+                {
+                    bookmarkedBlogs.map(bookmarkedBlog => <AddBookmark
+                        bookmarkedBlog={bookmarkedBlog}
+                        key={bookmarkedBlog.id}
                     ></AddBookmark>)
-               }
+                }
             </div>
         </div>
     );
